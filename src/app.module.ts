@@ -6,6 +6,9 @@ import { BirdsModule } from './birds/birds.module';
 
 @Module({
   imports: [CatsModule, BirdsModule],
+
+@Module({
+  imports: [CatsModule],
   controllers: [AppController],
   providers: [AppService],
 })
