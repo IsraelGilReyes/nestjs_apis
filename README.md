@@ -96,3 +96,21 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+# NestJS Cats & Birds API
+
+API REST construida con NestJS para gestionar gatos y aves.
+
+## 🚀 Instalación
+
+```bash
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run start:dev
+
+# Ejecutar en producción
+npm run build
+npm run start:prod
